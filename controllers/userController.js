@@ -1,5 +1,5 @@
 import User from "../models/userModel.js";
-import { catchAsync } from "../utils/cathcAsync.js";
+import { catchAsync } from "../utils/catchAsync.js";
 import { ErrorHandler } from "../utils/errorHandler.js";
 import { sendToken } from "../utils/sendToken.js";
 

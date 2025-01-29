@@ -1,5 +1,5 @@
 import { Donation } from "../models/donationModel.js";
-import { catchAsync } from "../utils/cathcAsync.js";
+import { catchAsync } from "../utils/catchAsync.js";
 import { ErrorHandler } from "../utils/errorHandler.js";
 
 // POST /donation
