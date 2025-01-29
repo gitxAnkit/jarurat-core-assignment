@@ -81,7 +81,7 @@ export const deleteDonation = catchAsync(async (req, res, next) => {
     if (!donation) {
         return next(new ErrorHandler("Donation not found", 404));
     }
-    res.status(204).json({
+    res.status(200).json({
         success: true,
         message: "Donation deleted successfully.",
     });
