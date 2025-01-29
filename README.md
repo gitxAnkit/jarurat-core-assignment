@@ -60,7 +60,10 @@ The server will start on `http://localhost:5000/api/v1`
 
 ### Authentication
 - **POST** `/signup` - Register a new user
-- **POST** `/login` - Login and receive a token
+- **POST** `/login` - Login user  
+- **POST** `/logout` - Logout user
+
+
 ### User
 - **GET** `/users` - Get all users
 - **PUT** `/user/:userId` - Update user(role) by userId
