@@ -9,7 +9,6 @@ const donationSchema = new mongoose.Schema({
     email: {
         type: String,
         required: [true, "Email is required."],
-        unique: true,
         validate: [validator.isEmail, "Enter a valid email"],
     },
     amount: {
