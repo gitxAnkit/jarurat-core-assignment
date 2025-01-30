@@ -3,7 +3,7 @@
 A simple Node.js and Express-based donation management system with MongoDB as the database. This project allows users to create, update, retrieve, and delete donation records. It also includes user authentication with hashed passwords and error handling.
 
 ---
-API: https://donationmanagement.onrender.com/api/v1
+API: https://jarurat-core-assignment-production-d24a.up.railway.app/api/v1
 
 POSTMAN Collection: https://www.postman.com/warped-astronaut-754683/workspace/assignment1/collection/34165850-0d987681-a034-4ec1-897a-6aeb7b99bc82?action=share&creator=34165850
 ## Features
